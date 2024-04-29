@@ -13,7 +13,7 @@ class AccountContainer extends Component {
   } 
 
   componentDidMount(){
-    fetch('http://localhost:3001')
+    fetch('http://localhost:3000/transactions')
     .then(r => r.json())
     .then(resp => {
       this.setState({
