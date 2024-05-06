@@ -13,7 +13,7 @@ class AccountContainer extends Component {
   } 
 
   componentDidMount(){
-    fetch('http://localhost:4001/transactions')
+    fetch('https://json-server-2-n5s7.onrender.com/transactions')
     .then(r => r.json())
     .then(resp => {
       this.setState({

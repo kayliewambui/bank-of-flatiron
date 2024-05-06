@@ -12,7 +12,7 @@ class AddTransactionForm extends Component {
 
   handleSubmit = (evt) => {
     evt.preventDefault()
-    fetch('http://localhost:4001/transactions', {
+    fetch('https://json-server-2-n5s7.onrender.com/transactions', {
       method: "POST",
       headers: {
         'content-type': 'application/json'
