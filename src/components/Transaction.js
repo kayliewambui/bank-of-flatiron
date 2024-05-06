@@ -5,7 +5,7 @@ const Transaction = (props) => {
   let {date, description, category, amount} = props.transaction
 
   let handledelete = (evt) => {
-    fetch(`http://localhost:3000/transactions${props.transaction.id}`, {
+    fetch(`http://localhost:4001/transactions${props.transaction.id}`, {
       method: 'DELETE',
     })
     .then(r => r.json())

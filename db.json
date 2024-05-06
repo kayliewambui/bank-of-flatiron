@@ -125,6 +125,34 @@
       "description": "kaylie",
       "category": "Income",
       "amount": "200"
+    },
+    {
+      "id": "ce23",
+      "date": "2019-01-12",
+      "description": "Paycheck from Bob's Burgers",
+      "category": "Income",
+      "amount": "1000"
+    },
+    {
+      "id": "9db4",
+      "date": "2019-12-12",
+      "description": "MTA Vending Machine: MetroCard",
+      "category": "Transportation",
+      "amount": "-116.39"
+    },
+    {
+      "id": "71ac",
+      "date": "2024-04-30",
+      "description": "Martin",
+      "category": "DEbt",
+      "amount": "12000"
+    },
+    {
+      "id": "0166",
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": ""
     }
   ]
 }
